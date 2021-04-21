@@ -12,15 +12,15 @@
                             <video class="myVideo" autoplay loop>
                                 <source :src="require('../assets/video/site-video.mp4')" type="video/mp4">
                             </video>
-                          <div class="inSlider">
-                              <h1 class="pop" >
-                                  A CLEAR VIEW ON COMPLEX, <br/> NEW AND HARD TO REACH <br/> AUDIENCES</h1>
-                              <v-spacer></v-spacer>
-                              <p class="para">
-                                  <strong>for organisations that want to<br> make an impact - and give a damn.</strong>
-                              </p>
-                              <v-img style="max-width: 320px" class="hr-line" :src="require('../assets/Line4.png')"></v-img>
-                          </div>
+                            <div class="inSlider">
+                                <h1 class="pop" >
+                                    A CLEAR VIEW ON COMPLEX, <br/> NEW AND HARD TO REACH <br/> AUDIENCES</h1>
+                                <v-spacer></v-spacer>
+                                <p class="para">
+                                    <strong>for organisations that want to<br> make an impact - and give a damn.</strong>
+                                </p>
+                                <v-img style="max-width: 320px" class="hr-line" :src="require('../assets/Line4.png')"></v-img>
+                            </div>
                         </div>
                     </div>
                     <!-- </v-card> -->
@@ -225,194 +225,194 @@
 
             <!--&lt;!&ndash; mobile start &ndash;&gt;-->
             <!--<v-layout class="hidden-md-and-up" row wrap justify-center align="center"-->
-                      <!--style="height: 1700px; padding: 20px;">-->
+            <!--style="height: 1700px; padding: 20px;">-->
 
-                <!--<v-flex xs12 md3 :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}">-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344" height="490" style="margin-left: 5px; margin-right: 5px;">-->
-                        <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-flex xs12 md3 :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}">-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344" height="490" style="margin-left: 5px; margin-right: 5px;">-->
+            <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
 
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Audience <br/>Insight</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We use tried and tested engagement techniques to:-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• access and engage bespoke audiences</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• co-create projects, particularly with children and young people, Millennials, people-->
-                                <!--from Black, Asian and Minority Ethnic communities, underrepresented groups and-->
-                                <!--vulnerable communities-->
-                            <!--</p>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md3 :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}">-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344"-->
-                            <!--height="510"-->
-                            <!--style="margin-left: 5px; margin-right: 5px;"-->
-                    <!--&gt;-->
-                        <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Advisory &<br/>Campaign Support</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We advise and support on a range of issues including how to:-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• develop your theory of change</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• refine your social impact framework model-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• develop and execute strategies that help to increase brand awareness, customer-->
-                                <!--engagement or sales revenue from diverse audiences-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We provide specialist campaign advice and support for:-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• creative, innovative, practical and cost-effective campaign strategies-->
-                            <!--</p>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md3 :class="{'ma-3': $vuetify.breakpoint.lgAndDown}">-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344"-->
-                            <!--height="520"-->
-                            <!--style="margin-left: 5px; "-->
-                    <!--&gt;-->
-                        <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Exploration and <br/>Solution Labs</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We have an innovative approach to managing focus groups:</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• organic and trusted network of partners-->
-                                <!--across various communities, built through our networks, direct outreach and-->
-                                <!--collaboration</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• diverse and comprehensive database of potential participants and partners</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• unique insight gathering methodology –-->
-                                <!--Exploration and Solution Labs – to gather in-depth insight to understand a topic more-->
-                                <!--deeply and from the hearts of their target audiences</p>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Audience <br/>Insight</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We use tried and tested engagement techniques to:-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• access and engage bespoke audiences</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• co-create projects, particularly with children and young people, Millennials, people-->
+            <!--from Black, Asian and Minority Ethnic communities, underrepresented groups and-->
+            <!--vulnerable communities-->
+            <!--</p>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
+            <!--<v-flex xs12 md3 :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}">-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344"-->
+            <!--height="510"-->
+            <!--style="margin-left: 5px; margin-right: 5px;"-->
+            <!--&gt;-->
+            <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Advisory &<br/>Campaign Support</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We advise and support on a range of issues including how to:-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• develop your theory of change</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• refine your social impact framework model-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• develop and execute strategies that help to increase brand awareness, customer-->
+            <!--engagement or sales revenue from diverse audiences-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We provide specialist campaign advice and support for:-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• creative, innovative, practical and cost-effective campaign strategies-->
+            <!--</p>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
+            <!--<v-flex xs12 md3 :class="{'ma-3': $vuetify.breakpoint.lgAndDown}">-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344"-->
+            <!--height="520"-->
+            <!--style="margin-left: 5px; "-->
+            <!--&gt;-->
+            <!--<v-img style="color: #8c0d37; margin-top: 0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Exploration and <br/>Solution Labs</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We have an innovative approach to managing focus groups:</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• organic and trusted network of partners-->
+            <!--across various communities, built through our networks, direct outreach and-->
+            <!--collaboration</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• diverse and comprehensive database of potential participants and partners</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• unique insight gathering methodology –-->
+            <!--Exploration and Solution Labs – to gather in-depth insight to understand a topic more-->
+            <!--deeply and from the hearts of their target audiences</p>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
 
             <!--</v-layout>-->
 
             <!--<v-layout class="hidden-md-and-up" row wrap justify-center align="center"-->
-                      <!--style="height: 1700px; padding: 20px;">-->
-                <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344"-->
-                            <!--height="500"-->
-                            <!--style="margin-left: 5px; margin-right: 5px;"-->
-                    <!--&gt;-->
-                        <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Impact Evaluation <br/>& ROI</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We produce impactful evaluation reports that demonstrate:-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• effectiveness of a client's work-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• efficiency and impact of a client’s programme in addressing the aims and goals it sets-->
-                                <!--out in the programme’s Theory of Change-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• room for improvements and lessons-->
-                                <!--learned</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• social value of a client’s programme</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• how to create, shape and develop effective-->
-                                <!--CSR programmes</p>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
-                <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344"-->
-                            <!--height="500"-->
-                            <!--style="margin-left: 5px; margin-right: 5px;"-->
-                    <!--&gt;-->
-                        <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Marketing<br/>& PR</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--We deliver bespoke marketing and PR campaigns for diverse audiences:-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right:20px">• utilising market knowledge and audience-->
-                                <!--insight</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• leveraging networks in culturally relevant media platforms-->
-                            <!--</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• working in collaboration with leading social cause and diversity consultancy Naked-->
-                                <!--Truth PR</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--• providing value that benefits client’s ‘bottom-line’ but focuses on the ‘the bigger-->
-                                <!--picture’-->
-                            <!--</p>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
-                <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
-                    <!--<v-card center elevation="10"-->
-                            <!--max-width="344"-->
-                            <!--height="500"-->
-                            <!--style="margin-left: 5px; margin-right: 5px;"-->
-                    <!--&gt;-->
-                        <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
-                               <!--:src="require('../assets/Line3.png')"></v-img>-->
-                        <!--<v-card-text class="rec">-->
-                            <!--<div style="color: #8c0d37;"><strong>Solution-focused <br/>Reports</strong></div>-->
-                            <!--<br>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">-->
-                                <!--Regardless of the issue or topic our reports are:</p>-->
-                            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                               <!--style="font-size: 16px; margin-right: 20px;">• clear and readable for a wide audience,-->
-                                <!--without jargon or ‘smarty pants’ language</p>-->
-                            <!--<div :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
-                                 <!--style="font-size: 16px; margin-right: 20px; font-family: Lato">-->
-                                <!--• visually appealing and engaging-->
-                            <!--</div>-->
-                        <!--</v-card-text>-->
-                    <!--</v-card>-->
-                <!--</v-flex>-->
+            <!--style="height: 1700px; padding: 20px;">-->
+            <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344"-->
+            <!--height="500"-->
+            <!--style="margin-left: 5px; margin-right: 5px;"-->
+            <!--&gt;-->
+            <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Impact Evaluation <br/>& ROI</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We produce impactful evaluation reports that demonstrate:-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• effectiveness of a client's work-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• efficiency and impact of a client’s programme in addressing the aims and goals it sets-->
+            <!--out in the programme’s Theory of Change-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• room for improvements and lessons-->
+            <!--learned</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• social value of a client’s programme</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• how to create, shape and develop effective-->
+            <!--CSR programmes</p>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
+            <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344"-->
+            <!--height="500"-->
+            <!--style="margin-left: 5px; margin-right: 5px;"-->
+            <!--&gt;-->
+            <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Marketing<br/>& PR</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--We deliver bespoke marketing and PR campaigns for diverse audiences:-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right:20px">• utilising market knowledge and audience-->
+            <!--insight</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• leveraging networks in culturally relevant media platforms-->
+            <!--</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• working in collaboration with leading social cause and diversity consultancy Naked-->
+            <!--Truth PR</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--• providing value that benefits client’s ‘bottom-line’ but focuses on the ‘the bigger-->
+            <!--picture’-->
+            <!--</p>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
+            <!--<v-flex :class="{'mb-5': $vuetify.breakpoint.xs, 'ma-3': $vuetify.breakpoint.lgAndDown}" xs12 md3>-->
+            <!--<v-card center elevation="10"-->
+            <!--max-width="344"-->
+            <!--height="500"-->
+            <!--style="margin-left: 5px; margin-right: 5px;"-->
+            <!--&gt;-->
+            <!--<v-img style="color: #8c0d37; margin-top: -0px;" height="3px" width="320"-->
+            <!--:src="require('../assets/Line3.png')"></v-img>-->
+            <!--<v-card-text class="rec">-->
+            <!--<div style="color: #8c0d37;"><strong>Solution-focused <br/>Reports</strong></div>-->
+            <!--<br>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">-->
+            <!--Regardless of the issue or topic our reports are:</p>-->
+            <!--<p :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px;">• clear and readable for a wide audience,-->
+            <!--without jargon or ‘smarty pants’ language</p>-->
+            <!--<div :class="{'body-1': $vuetify.breakpoint.xs, 'body-1': $vuetify.breakpoint.md}"-->
+            <!--style="font-size: 16px; margin-right: 20px; font-family: Lato">-->
+            <!--• visually appealing and engaging-->
+            <!--</div>-->
+            <!--</v-card-text>-->
+            <!--</v-card>-->
+            <!--</v-flex>-->
             <!--</v-layout>-->
 
             <v-btn round outline large max-width="180px" color="#8c0d37" class="leftleft2 mt-5"><strong>
@@ -439,116 +439,55 @@
                    max-width="100px" :to="{name: 'casestudies'}">CASE STUDIES
             </v-btn>
         </v-container>
-        <!-- mobile end  -->
 
-        <!-- NEW SECTION 6 -->
-        <v-container>
-            <!-- mobile start  -->
-            <v-layout row wrap class="hidden-md-and-up">
-                <v-layout>
-                    <v-flex x12 class="font-family: Lato" style="margin-top: 20px; margin-bottom: 20px"><p><strong><u>Some
-                        of our clients and friends</u></strong></p></v-flex>
+        <v-container fluid class="ourClients">
+            <v-container >
+                <v-layout row wrap>
+                    <v-flex md12  style="padding-top: 50px;">
+                        <p class="logoTitle">Some of our clients and friends </p>
+                        <div class="logoSection">
+                            <div class="brands"><img src="../assets/partners/6.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/7.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/8.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/9.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/10.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/1.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/2.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/3.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/4.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/5.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/11.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/12.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/13.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/14.png" class="img-responsive" alt="our partners"></div>
+                            <div class="brands"><img src="../assets/partners/15.png" class="img-responsive" alt="our partners"></div>
+                        </div>
+                    </v-flex>
                 </v-layout>
-                <v-flex xs6 md2>
-                    <v-img height="100px" contain :src="require('../assets/tinder-logo-png.jpg')"></v-img>
-                    <v-img height="100px" contain :src="require('../assets/Uber.jpg')"></v-img>
-                    <v-img height="100px" style="margin-left: 16px" contain
-                           :src="require('../assets/uk youth.png')"></v-img>
-                </v-flex>
-                <v-flex xs6 md2>
-                    <v-img height="80px" style="margin-top: 14px;" contain
-                           :src="require('../assets/logo1.jpg')"></v-img>
-                    <v-img height="100px" style="margin-top: 12px; margin-right: 20px" contain
-                           :src="require('../assets/Saatchi.png')"></v-img>
-                    <v-img height="100px" style="margin-top: -5px;" contain :src="require('../assets/ms.jpg')"></v-img>
-                </v-flex>
-            </v-layout>
-
-            <!-- mobile end  -->
-
-            <!--<v-layout row wrap class="hidden-sm-and-down" justify-space-between align="center"-->
-                      <!--style="height: 460px; padding: 20px; margin-left: auto; margin-right: auto; margin-top: 100px; width: 1200px">-->
-                <!--<v-flex xs12 md4>-->
-                    <!--<p style="margin-left: -30px; font-size:20px; color: black; margin-top: -40px"><strong>Some of our-->
-                        <!--clients and friends</strong></p>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md8>-->
-                    <!--<v-img style="color: black; margin-left: -10px;  margin-top: -21px" width="700px" height="2px"-->
-                           <!--:src="require('../assets/Line2.png')"></v-img>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md2>-->
-                    <!--<v-img max-height="150" max-width="120" :src="require('../assets/tinder-logo-png.jpg')"></v-img>-->
-                    <!--<v-img max-height="120" max-width="120" class="uber" :src="require('../assets/Uber.jpg')"></v-img>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md2>-->
-                    <!--<v-img max-height="150" max-width="120" class="nhs" :src="require('../assets/NHS.jpg')"></v-img>-->
-                    <!--<v-img max-height="120" max-width="120" class="ms" :src="require('../assets/ms.jpg')"></v-img>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md2>-->
-                    <!--<v-img max-height="150" max-width="120" :src="require('../assets/starbucks.jpg')"></v-img>-->
-                    <!--<v-img max-height="120" max-width="120" class="unilad"-->
-                           <!--:src="require('../assets/Saatchi.png')"></v-img>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md2>-->
-                    <!--<v-img max-height="150" max-width="120" :src="require('../assets/unicef.jpg')"></v-img>-->
-                    <!--<v-img max-height="120" max-width="120" class="logo1" :src="require('../assets/logo1.jpg')"></v-img>-->
-                <!--</v-flex>-->
-                <!--<v-flex xs12 md2>-->
-                    <!--<v-img max-height="150" max-width="120" :src="require('../assets/art.jpg')"></v-img>-->
-                    <!--<v-img max-height="120" max-width="120" class="youth"-->
-                           <!--:src="require('../assets/uk youth.png')"></v-img>-->
-                <!--</v-flex>-->
-            <!--</v-layout>-->
+            </v-container>
         </v-container>
 
-       <v-container fluid class="ourClients">
-           <v-container >
-               <v-layout row wrap>
-                   <v-flex md12  style="padding-top: 50px;">
-                       <p class="logoTitle">Some of our clients and friends </p>
-                       <div class="logoSection">
-                           <div class="brands"><img src="../assets/partners/6.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/7.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/8.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/9.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/10.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/1.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/2.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/3.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/4.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/5.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/11.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/12.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/13.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/14.png" class="img-responsive" alt="our partners"></div>
-                           <div class="brands"><img src="../assets/partners/15.png" class="img-responsive" alt="our partners"></div>
-                       </div>
-                   </v-flex>
-               </v-layout>
-           </v-container>
-       </v-container>
-
-       <v-container fluid class="ourClients mt-5">
-           <v-container >
-               <v-layout row wrap>
-                   <v-flex md12  style="padding-top: 50px;">
-                       <p class="logoTitle">Been quoted in</p>
-                       <div class="logoSection">
-                           <div class="brands"><img src="../assets/clients/bbc.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/glamour.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/guardian.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/indep.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/metro.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/sky.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/tele.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/voice.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/wsj.png" class="img-responsive" alt="our clients"></div>
-                           <div class="brands"><img src="../assets/clients/sun.png" class="img-responsive" alt="our clients"></div>
-                       </div>
-                   </v-flex>
-               </v-layout>
-           </v-container>
-       </v-container>
+        <v-container fluid class="ourClients mt-5">
+            <v-container >
+                <v-layout row wrap>
+                    <v-flex md12  style="padding-top: 50px;">
+                        <p class="logoTitle">Been quoted in</p>
+                        <div class="logoSection">
+                            <div class="brands"><img src="../assets/clients/bbc.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/glamour.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/guardian.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/indep.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/metro.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/sky.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/tele.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/voice.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/wsj.png" class="img-responsive" alt="our clients"></div>
+                            <div class="brands"><img src="../assets/clients/sun.png" class="img-responsive" alt="our clients"></div>
+                        </div>
+                    </v-flex>
+                </v-layout>
+            </v-container>
+        </v-container>
 
         <!-- NEW SECTION 7 -->
 
@@ -665,7 +604,7 @@
                             86-90 Paul Street, London, EC2A 4NE</strong></p>
                         <p style="color:white; font-size: 13px"><strong>ClearView Research Ltd © 2021 All Rights
                             Reserved  |  <span style="color: #d05e32"><a style="color: inherit; "
-                                                                       href="./../static/privacy.pdf" target="_blank"> Privacy Policy</a></span></strong>
+                                                                         href="./../static/privacy.pdf" target="_blank"> Privacy Policy</a></span></strong>
                         </p>
                     </v-flex>
                 </v-layout>
@@ -1091,54 +1030,23 @@ export default {
         .para{
             margin-top: 50px;
             padding-left: 5rem;
-            font-size: 28px;
+            font-size: 22px;
 
             line-height: 1;
         }
 
         .pop{
             padding-top: 6rem!important;
-            font-size: 1.4rem!important;
+            font-size: 1.2rem!important;
             line-height: 1.2!important;
             padding-left: 5rem!important;
             margin-top: 0!important;
         }
         .myVideo{
-             height: auto!important;
-             z-index: -1!important;
-         }
-    }
-
-    @media(max-width:600px){
-        .pop {
-            padding-top: 6rem!important;
-
-            padding-left:1rem !important;
-            margin-top: 0!important;
+            height: auto!important;
+            /*z-index: -1!important;*/
         }
 
-        .hr-line{
-            color: white; height: 2px; margin-left:1rem;  margin-top: 28px;
-            width: 55%;
-        }
-
-        .para{
-            padding-left:1rem ;
-
-        }
-
-    }
-
-    @media (max-width: 425px){
-        .pop {
-            padding-top: 2rem!important;
-        }
-        .para {
-            margin-top: 17px;
-        }
-        .banner {
-            min-height: 300px!important;
-        }
     }
 
     #app {
@@ -1577,13 +1485,69 @@ export default {
         flex-wrap: wrap;
     }
     .ourClients .logoSection .brands{
-      flex-basis: 20%;
+        flex-basis: 20%;
         padding: 12px;
     }
 
     .img-responsive{
         width: 100%;
         height: auto;
+    }
+
+    @media(max-width: 768px){
+        .gridSection .item .article {
+            padding: 2rem;
+        }
+        .gridSection .item{
+            align-items: center;
+        }
+        .ourClients .logoTitle{
+            font-size: 1.8rem;
+        }
+        .ourClients .logoSection .brands{
+            flex-basis: 33%;
+        }
+    }
+
+    @media(max-width:600px){
+        .pop {
+            padding-top: 6rem!important;
+
+            padding-left:1rem !important;
+            margin-top: 0!important;
+        }
+
+        .hr-line{
+            color: white; height: 2px; margin-left:1rem;  margin-top: 28px;
+            width: 55%;
+        }
+
+        .para{
+            padding-left:1rem ;
+
+        }
+
+    }
+
+    @media (max-width: 425px){
+        .pop {
+            padding-top: 2rem!important;
+        }
+        .para {
+            margin-top: 17px;
+        }
+        .banner {
+            min-height: 300px!important;
+        }
+        .ourClients .logoSection .brands{
+            flex-basis:50%;
+        }
+    }
+    @media (max-width: 375px){
+
+        .banner {
+            min-height: 255px!important;
+        }
     }
 
     @keyframes rotate {
@@ -1594,7 +1558,7 @@ export default {
             transform: rotate(360deg);
         }
     }
-        /*body{*/
-            /*overflow-x:hidden;*/
-        /*}*/
+    /*body{*/
+    /*overflow-x:hidden;*/
+    /*}*/
 </style>
