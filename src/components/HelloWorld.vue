@@ -1507,6 +1507,12 @@ export default {
         .ourClients .logoSection .brands{
             flex-basis: 33%;
         }
+
+        .gridSection:nth-child(even){
+            flex-direction: column-reverse;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
     }
 
     @media(max-width:600px){
