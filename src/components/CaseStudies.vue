@@ -8,7 +8,7 @@
             </v-container>
             <section class="introTitle">
                 <div>
-                    <p class="first-title">Our works</p>
+                    <p class="first-title">Our projects</p>
                 </div>
                 <div class="sl">
                     <img max-width="880px" class="sl" :src="require('../assets/Line7.png')"/>
@@ -429,6 +429,21 @@ export default {
         flex-basis: 32%;
     }
 
+    .columnBox {
+        padding: 5px;
+        margin: 3px !important;
+        height: 280px;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        flex-basis: 32%;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .columnBox:hover {
+        transform: translateY(-3px);
+    }
+
     .columnBox a{
         text-decoration: none;
     }
@@ -451,7 +466,9 @@ export default {
         height: 100%;
         position: relative;
         z-index: 1;
+
     }
+
     .columnBox .inner img {
         max-width: 100px;
         height: auto;

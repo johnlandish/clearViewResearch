@@ -7,13 +7,18 @@
             </router-link>
             <navBar></navBar>
         </v-container>
-        <section class="mt-4 cover">
+        <section class="mt-4 cover" >
+
+                <router-link  class="icon" to="/CaseStudies"  >
+                    <span>&#11164;</span>
+                </router-link>
+
             <img src="../assets/case-studies/grid/1.jpg" style="width:100%; height:auto;">
         </section>
         <v-container style="margin-top:50px;" class="animate">
             <v-layout row wrap >
                 <v-flex md12 sm12 class="px-4" style="text-align: left;">
-                    <p style="font-size: 1.4rem; font-weight: bold;">Westminster Drug Project (WDP) </p>
+                    <p style="font-size: 1.4rem; font-weight: bold; color:#003A9E;">Westminster Drug Project (WDP) </p>
 
                 </v-flex>
                 <v-flex md12 sm12 class="px-4">
@@ -22,7 +27,7 @@
                         commissioned by WDP to execute two projects. One project was focussed on working with
                         their staff team and youth services team to develop their theory of change model for their
                         youth programmes.</p>
-                    <p class="mt-5" style="text-align: left; margin-right: 50px; font-size: 28px;">The second project was a cultural audit. As part of this cultural audit our team explored the
+                    <p class="mt-5  " style="text-align: left;margin-right: 50px;font-size: 28px;margin-bottom: 90px;">The second project was a cultural audit. As part of this cultural audit our team explored the
                         internal culture and areas of tension among their staff through a series of conversations with
                         staff and senior leadership. At the same time we gathered insights into how the services
                         could be improved and involve more co-production to keep the service user central in their

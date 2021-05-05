@@ -575,76 +575,14 @@
 
         <!-- NEW SECTION 9 -->
 
-        <v-container fluid style="margin: 0px; padding: 0px; width: 100%; background:#1c1c1c;">
-            <div>
-                <v-layout class="hidden-sm-and-down" row justify-center align="center" style="height: 400px;">
-                    <v-flex xs4 md3 style="margin-top: 70px; margin-left: -90px">
-                        <a href="https://www.facebook.com/CVR.Insights/" style="text-decoration:none">
-                            <v-icon large style="margin-bottom: 17px; margin-top: 8px;" color="white">fab fa-facebook
-                            </v-icon>
-                        </a><br>
-                        <a href="https://twitter.com/CVR_Insights" style="text-decoration:none">
-                            <v-icon large style="margin-bottom: 17px;" color="white">fab fa-twitter</v-icon>
-                        </a><br>
-                        <a href="https://www.instagram.com/cvr_insights/" style="text-decoration:none">
-                            <v-icon large style="margin-bottom: 17px;" color="white">fab fa-instagram</v-icon>
-                        </a><br>
+        <siteFooter></siteFooter>
 
-                        <a href="https://www.linkedin.com/company/clearview-research-ltd" style="text-decoration:none">
-                            <v-icon large style="margin-bottom: 17px;" color="white">fab fa-linkedin</v-icon>
-                        </a>
-                    </v-flex>
-                    <v-flex xs8 md9 style="background:#1c1c1c; text-align: left; margin-top: 70px; margin-left: -40px">
-                        <p style="color:lightgrey; font-size: 38px"><strong>Get in touch</strong></p>
-                        <v-img style="height: 2px; width: 220px; margin-top: -20px"
-                               :src="require('../assets/Line10.png')"></v-img>
-                        <br>
-                        <p style="color:lightgrey; font-size: 32px"><strong>+44-203-474-0995</strong></p>
-                        <p style="color:white; font-size: 13px"><strong>ClearView Research Ltd,<br>
-                            86-90 Paul Street, London, EC2A 4NE</strong></p>
-                        <p style="color:white; font-size: 13px"><strong>ClearView Research Ltd © 2021 All Rights
-                            Reserved  |  <span style="color: #d05e32"><a style="color: inherit; "
-                                                                         href="./../static/privacy.pdf" target="_blank"> Privacy Policy</a></span></strong>
-                        </p>
-                    </v-flex>
-                </v-layout>
-            </div>
-            <v-layout class="hidden-md-and-up" row justify-center align="center"
-                      style="height: 430px; background:#1c1c1c;">
-                <v-flex xs12 md3 style="margin-top: 70px; margin-left: -90px">
-                    <a href="https://www.facebook.com/CVR.Insights" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px; margin-top: 8px;" color="white">fab fa-facebook
-                        </v-icon>
-                    </a><br>
-                    <a href="https://twitter.com/CVR_Insights" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-twitter</v-icon>
-                    </a><br>
-                    <a href="https://www.instagram.com/cvr_insights/" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-instagram</v-icon>
-                    </a><br>
-
-                    <a href="https://www.linkedin.com/company/clearview-research-ltd" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-linkedin</v-icon>
-                    </a>
-                </v-flex>
-                <v-flex xs12 md9 style="background:#1c1c1c; text-align: left; margin-top: 70px; margin-left: -40px">
-                    <p style="color:lightgrey; font-size: 34px"><strong>Get in touch</strong></p>
-                    <v-img style="height: 2px; width: 200px; margin-top: -20px"
-                           :src="require('../assets/Line10.png')"></v-img>
-                    <br>
-                    <p style="color:lightgrey; font-size: 26px"><strong>+44-203-474-0995</strong></p>
-                    <p style="color:white; font-size: 14px"><strong>ClearView Research Ltd,<br>
-                        86-90 Paul Street, London, EC2A 4NE</strong></p>
-                    <p style="color:white; font-size: 14px"><strong>ClearView Research Ltd © 2021 All Rights Reserved |
-                        <span style="color: #d05e32"><a style="color: inherit; " href="./../static/privacy.pdf" target="_blank"> Privacy Policy</a></span></strong></p>
-                </v-flex>
-            </v-layout>
-        </v-container>
     </div>
 </template>
 
 <script>
 import navBar from '../components/Globals/navBar.vue'
+import siteFooter from './Globals/siteFooter.vue'
 import axios from 'axios'
 import VueNavigationBar from 'vue-navigation-bar'
 import 'vue-navigation-bar/dist/vue-navigation-bar.css'
@@ -654,7 +592,8 @@ export default {
   mixins: [vueWindowSizeMixin],
   components: {
     'vue-navigation-bar': VueNavigationBar,
-    'navBar': navBar
+    'navBar': navBar,
+    'siteFooter': siteFooter
   },
   // beforeCreate () {
   //  vnb__menu-options__option__link.style = '#333680'
@@ -1492,6 +1431,15 @@ export default {
     .img-responsive{
         width: 100%;
         height: auto;
+    }
+
+    @media(max-width:1024px){
+        .gridSection .item .article {
+            padding: 2rem;
+        }
+        .gridSection .item {
+            align-items: center;
+        }
     }
 
     @media(max-width: 768px){

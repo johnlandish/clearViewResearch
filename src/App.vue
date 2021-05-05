@@ -29,9 +29,33 @@ export default {
 </script>
 
 <style>
+
+    .cover .icon{
+        position: absolute;
+        z-index: 2;
+        background: #ffff;
+        font-size: 1.5rem;
+        COLOR: #363d80;
+        border-radius: 50%;
+        top: 45%;
+        left: 11px;
+        height: 50px;
+        width: 50px;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-decoration: none;
+    }
     .cover{
         max-height: 400px;
         overflow: hidden;
+        position: relative;
     }
     .cover img{
         transform: translateY(-20%);

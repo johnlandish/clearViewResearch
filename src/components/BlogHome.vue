@@ -106,12 +106,12 @@ export default {
 
     .blogContainer .blogItem img{
         width: 100%;
-        height: auto;
+        height: 200px;
     }
     .blogContainer .blogItem h2{
         text-align: left;
         padding: 20px;
-        color: #000;
+        color: #003F94;
         font-size: 1.3rem;
         font-style: italic;
         line-height: 1.3;
