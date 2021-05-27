@@ -10,7 +10,7 @@ import Panel from '@/components/Globals/Panel'
 import VueMeta from 'vue-meta'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import VueWindowSize from 'vue-window-size'
-
+import VueCarousel from 'vue-carousel'
 Vue.config.productionTip = false
 
 Vue.component('panel', Panel)
@@ -35,6 +35,8 @@ Vue.use(Vuetify, {
     iconfont: 'fa'
   }
 })
+
+Vue.use(VueCarousel)
 
 /* eslint-disable no-new */
 new Vue({

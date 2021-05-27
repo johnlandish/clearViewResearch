@@ -9,12 +9,12 @@
                 <v-flex xs12 md12>
                     <div flat grid-list-md text-xs-center>
                         <div class="banner">
-                            <video class="myVideo" autoplay loop>
-                                <source :src="require('../assets/video/site-video.mp4')" type="video/mp4">
+                            <video class="myVideo" autoplay playsinline loop muted id="video">
+                                <source :src="require('../assets/video/main-video.mp4')" type="video/mp4">
                             </video>
                             <div class="inSlider">
                                 <h1 class="pop" >
-                                    A CLEAR VIEW ON COMPLEX, <br/> NEW AND HARD TO REACH <br/> AUDIENCES</h1>
+                                    A CLEAR VIEW ON COMPLEX, <br/> NEW AND <span style=" ">"SO CALLED"</span> HARD  <br/>TO REACH AUDIENCES</h1>
                                 <v-spacer></v-spacer>
                                 <p class="para">
                                     <strong>for organisations that want to<br> make an impact - and give a damn.</strong>
@@ -74,7 +74,7 @@
                            :src="require('../assets/06.png')">
                     </v-img>
                     <br>
-                    <p style="color:#34387F; font-weight: Heavy; font-size: 26px; font-family: Lato"><strong>Develop greater<br/>Understanding</strong></p>
+                    <p style="color:#34387F; font-weight: Heavy; font-size: 26px; font-family: Lato"><strong>Develop Greater<br/>Understanding</strong></p>
                     <p style="color:black; font-family: Lato">using innovative research approaches<br/> we help you to uncover real insight
                         <br> from those who often go unheared</p>
 
@@ -85,7 +85,7 @@
                            :src="require('../assets/08.png')">
                     </v-img>
                     <br>
-                    <p style="color:#34387F; font-size: 26px; font-family: Lato"><strong>Ensure a lasting
+                    <p style="color:#34387F; font-size: 26px; font-family: Lato"><strong>Ensure a Lasting
                         <br/>Impact</strong></p>
                     <p style="color:black; font-family: Lato">We provide critical insights<br/> and strategic support to enable you
                         <br> to make a meaningful difference</p>
@@ -103,8 +103,9 @@
             <v-layout row wrap justify-center align="center"
                       style="height: 750px; margin-left: 12%; margin-right: 12%; padding-top: 100px; width: 1200px; color: #E8E8E8">
                 <v-flex xs12 md2>
-                    <p style="font-size:20px; color: black; margin-top: -40px" class="hidden-sm-and-down"><strong>Some
-                        of our projects</strong></p>
+                    <p style="font-size:20px; color: black; margin-top: -40px" class="hidden-sm-and-down">
+                        <strong>Some of our projects</strong>
+                    </p>
                 </v-flex>
                 <v-flex xs12 md10>
                     <v-img style="color: black; margin-left: 10px;  margin-top: -21px" width="834px" height="2px"
@@ -416,7 +417,7 @@
             <!--</v-layout>-->
 
             <v-btn round outline large max-width="180px" color="#8c0d37" class="leftleft2 mt-5"><strong>
-                <router-link to="/Expertise#anchor2">LEARN MORE</router-link>
+                <router-link to="/Expertise#anchor1">LEARN MORE</router-link>
             </strong></v-btn>
         </v-container>
 
@@ -445,23 +446,71 @@
                 <v-layout row wrap>
                     <v-flex md12  style="padding-top: 50px;">
                         <p class="logoTitle">Some of our clients and friends </p>
-                        <div class="logoSection">
-                            <div class="brands"><img src="../assets/partners/6.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/7.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/8.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/9.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/10.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/1.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/2.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/3.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/4.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/5.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/11.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/12.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/13.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/14.png" class="img-responsive" alt="our partners"></div>
-                            <div class="brands"><img src="../assets/partners/15.png" class="img-responsive" alt="our partners"></div>
-                        </div>
+                        <carousel :perPageCustom="[[768, 3], [1024, 5]]">
+                        <slide>
+                            <img src="../assets/partners/6.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/7.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/8.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/9.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/10.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/1.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/2.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/3.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/4.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/5.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/11.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/12.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/13.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/14.png" class="img-responsive" alt="our partners">
+                        </slide>
+                        <slide>
+                            <img src="../assets/partners/15.png" class="img-responsive" alt="our partners">
+                        </slide>
+                    </carousel>
+                        <!--<div class="logoSection">-->
+                            <!--<div class="brands"><img src="../assets/partners/6.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/7.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/8.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/9.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/10.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/1.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/2.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/3.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/4.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/5.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/11.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/12.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/13.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/14.png" class="img-responsive" alt="our partners"></div>-->
+                            <!--<div class="brands"><img src="../assets/partners/15.png" class="img-responsive" alt="our partners"></div>-->
+                        <!--</div>-->
+
                     </v-flex>
                 </v-layout>
             </v-container>
@@ -471,19 +520,39 @@
             <v-container >
                 <v-layout row wrap>
                     <v-flex md12  style="padding-top: 50px;">
-                        <p class="logoTitle">Been quoted in</p>
-                        <div class="logoSection">
-                            <div class="brands"><img src="../assets/clients/bbc.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/glamour.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/guardian.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/indep.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/metro.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/sky.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/tele.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/voice.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/wsj.png" class="img-responsive" alt="our clients"></div>
-                            <div class="brands"><img src="../assets/clients/sun.png" class="img-responsive" alt="our clients"></div>
-                        </div>
+                        <p class="logoTitle">Referenced in</p>
+                        <carousel :perPageCustom="[[768, 3], [1024, 5]]">
+                            <slide>
+                                <img src="../assets/clients/bbc.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/glamour.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/guardian.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/indep.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/metro.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/sky.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/tele.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/voice.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/wsj.png" class="img-responsive" alt="our partners">
+                            </slide>
+                            <slide>
+                                <img src="../assets/clients/sun.png" class="img-responsive" alt="our partners">
+                            </slide>
+                        </carousel>
                     </v-flex>
                 </v-layout>
             </v-container>
@@ -493,45 +562,45 @@
 
         <v-container fluid style="margin: 0px; margin-top: 10px; padding: 0px; width: 100%">
             <v-layout row wrap justify-space-around class="justify-center">
-                <v-flex xs12 class="hidden-sm-and-down">
-                    <v-img height="900px" :src="require('../assets/lord33.png')">
-                        <div style="padding-top:85px;">
-                            <v-img max-width="1330px" height="2px" class="sect5"
-                                   :src="require('../assets/Line.png')"></v-img>
-                            <div class="d-inline-flex font-family: Lato;"
-                                 style="font-family: Lato; text-align: left; color:white; font-size: 50px; margin-right:12%">
-                                <strong>You can’t make a great <br/> decision without, <br/> a clear view. </strong>
-                            </div>
-                            <div style="font-family: Lato; max-width: 600px; color:white;text-align: left; font-size: 24px; padding-left:80px;"
-                                 class="d-inline-flex "><strong>We help businesses, lifestyle brands, charities and
-                                governments to access unique and trustworthy audience insights, and make great decisions
-                                that solve complex business problems, and benefit society at large.<br/><br>
-                                We engage and gather consumer insight
-                                from various audiences such as: children, Generation Z, millennials, under-represented
-                                groups (e.g. people from Black, Asian or other ethnic minority groups) and vulnerable
-                                groups.<br/><br>
-                                We have worked on projects across 4 continents and in countries such as Australia,
-                                Brazil and Spain. We have worked on project briefs for the likes of Starbucks UK, NHS
-                                England, the Vodafone Foundation, Unicef UK, and Tinder.</strong></div>
+                <v-flex xs12 class="">
+                    <div style="padding:85px 0; background:#323E7C ;">
+                        <v-img max-width="1330px" height="2px" class="sect5"
+                               :src="require('../assets/Line.png')"></v-img>
+                        <div class="d-inline-flex font-family: Lato;"
+                             style="text-align: left; color:white; font-size: 32px; justify-content: center; margin-left: 10%; margin-right: 10%;">
+                            <strong>You can’t make a great <br/> decision without, <br/> a clear view. </strong>
                         </div>
-                    </v-img>
+                        <div class="d-inline-flex lifeStyle"><strong>We help businesses, lifestyle brands, charities and
+                            governments to access unique and trustworthy audience insights, and make great decisions
+                            that solve complex business problems, and benefit society at large.<br/><br>
+                            We engage and gather consumer insight
+                            from various audiences such as: children, Generation Z, millennials, under-represented
+                            groups (e.g. people from Black, Asian or other ethnic minority groups) and vulnerable
+                            groups.<br/><br>
+                            We have worked on projects across 4 continents and in countries such as Australia,
+                            Brazil and Spain. We have worked on project briefs for the likes of Starbucks UK, NHS
+                            England, the Vodafone Foundation, Unicef UK, and Tinder.</strong></div>
+                    </div>
+                    <!--<v-img height="900px" :src="require('../assets/lord33.png')">-->
+                      <!---->
+                    <!--</v-img>-->
                 </v-flex>
-                <v-flex class="hidden-md-and-up" xs12>
-                    <v-img height="800px" :src="require('../assets/cs11.png')" justify-center>
-                        <p class="font-family: Lato"
-                           style=" text-align: left; color:white; font-size: 24px; justify-content: center; margin-left: 10%; margin-right: 10%; ">
-                            <strong>You can’t make a great decision without a clear view. </strong></p>
-                        <p class="font-family: Lato"
-                           style=" color:white; text-align: left; font-size: 18px; margin-left: 10%; margin-right: 10%;">
-                            <strong>
-                                Our mission at ClearView is to support leaders to make equitable, conscious and culturally sensitive decisions.
-                                <br>
-                                We regularly engage and gather insights from various audiences nationally and internationally, particularly: young people, ethnic minority groups, culturally-diverse communities, people with protected characteristics and those who often go unheard.<br/>
-                                <br> We have worked on projects across 4 continents and in countries such as Australia, Brazil and Spain. We have worked on project briefs for the likes of Starbucks UK, NHS England, the Vodafone Foundation, Unicef UK, and Tinder.
-                            </strong>
-                        </p>
-                    </v-img>
-                </v-flex>
+                <!--<v-flex class="hidden-md-and-up" xs12>-->
+                    <!--<v-img height="800px" :src="require('../assets/cs11.png')" justify-center>-->
+                        <!--<p class="font-family: Lato"-->
+                           <!--style=" text-align: left; color:white; font-size: 24px; justify-content: center; margin-left: 10%; margin-right: 10%; ">-->
+                            <!--<strong>You can’t make a great decision without a clear view. </strong></p>-->
+                        <!--<p class="font-family: Lato"-->
+                           <!--style=" color:white; text-align: left; font-size: 18px; margin-left: 10%; margin-right: 10%;">-->
+                            <!--<strong>-->
+                                <!--Our mission at ClearView is to support leaders to make equitable, conscious and culturally sensitive decisions.-->
+                                <!--<br>-->
+                                <!--We regularly engage and gather insights from various audiences nationally and internationally, particularly: young people, ethnic minority groups, culturally-diverse communities, people with protected characteristics and those who often go unheard.<br/>-->
+                                <!--<br> We have worked on projects across 4 continents and in countries such as Australia, Brazil and Spain. We have worked on project briefs for the likes of Starbucks UK, NHS England, the Vodafone Foundation, Unicef UK, and Tinder.-->
+                            <!--</strong>-->
+                        <!--</p>-->
+                    <!--</v-img>-->
+                <!--</v-flex>-->
             </v-layout>
         </v-container>
 
@@ -909,6 +978,10 @@ export default {
           return '700px'
       }
     }
+  },
+  created () {
+    let video = document.getElementById('video')
+    video.play()
   }
 }
 </script>
@@ -1413,10 +1486,10 @@ export default {
     .ourClients .logoTitle{
         text-align: left;
         margin-left: 1rem;
-        font-size: 3rem;
+        font-size:18px;
         font-weight: 800;
         margin-bottom: 0;
-        text-shadow: 1px -1px 0px #333333;
+        /*text-shadow: 1px -1px 0px #333333;*/
         color: #333333;
     }
     .ourClients .logoSection{

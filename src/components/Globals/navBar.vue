@@ -12,7 +12,7 @@
                    <router-link to="/casestudies">Our Work</router-link>
                </li>
                <li>
-                    <!--<a href="#letsChat" @click="letsChat()">Let’s Chat</a>-->
+                    <!--<a  @click="letsChat()">Let’s Chat</a>-->
                     <a href="#letsChat" @click="letsChat()">Let’s Chat</a>
                </li>
                <li>
@@ -136,8 +136,8 @@ export default {
     }
     @media(max-width:425px){
         .humbergerMenu {
-            right: 0rem;
-            top: 1.1rem;
+            right: 0rem!important;
+            top: 1.1rem!important;
         }
     }
 

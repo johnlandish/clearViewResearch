@@ -9,16 +9,19 @@
         </v-container>
         <section class="mt-4 cover" >
 
-                <router-link  class="icon" to="/CaseStudies"  >
-                    <span>&#11164;</span>
-                </router-link>
+            <router-link  class="icon" to="/youth-cymru">
+                <i class="material-icons">arrow_back</i>
+            </router-link>
+            <router-link  class="icon_right" to="/youth-employment">
+                <i class="material-icons">arrow_forward</i>
+            </router-link>
 
             <img src="../assets/case-studies/grid/1.jpg" style="width:100%; height:auto;">
         </section>
         <v-container style="margin-top:50px;" class="animate">
             <v-layout row wrap >
                 <v-flex md12 sm12 class="px-4" style="text-align: left;">
-                    <p style="font-size: 1.4rem; font-weight: bold; color:#003A9E;">Westminster Drug Project (WDP) </p>
+                    <p class="workTitle">Westminster Drug Project (WDP) </p>
 
                 </v-flex>
                 <v-flex md12 sm12 class="px-4">
@@ -27,7 +30,7 @@
                         commissioned by WDP to execute two projects. One project was focussed on working with
                         their staff team and youth services team to develop their theory of change model for their
                         youth programmes.</p>
-                    <p class="mt-5  " style="text-align: left;margin-right: 50px;font-size: 28px;margin-bottom: 90px;">The second project was a cultural audit. As part of this cultural audit our team explored the
+                    <p class="mt-5  " style="text-align: left;margin-right: 50px;font-size: 28px; ">The second project was a cultural audit. As part of this cultural audit our team explored the
                         internal culture and areas of tension among their staff through a series of conversations with
                         staff and senior leadership. At the same time we gathered insights into how the services
                         could be improved and involve more co-production to keep the service user central in their
@@ -36,79 +39,20 @@
                 </v-flex>
             </v-layout>
         </v-container>
-        <v-container fluid style="margin: 0px; padding: 0px; width: 100%; background:#1c1c1c;">
-            <v-layout class="hidden-sm-and-down" row justify-center align="center" style="height: 400px;">
-                <v-flex xs4 md3 style="margin-top: 70px; margin-left: -90px">
-                    <a href="https://www.facebook.com/clearviewstats/" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px; margin-top: 8px;" color="white">fab fa-facebook
-                        </v-icon>
-                    </a><br>
-                    <a href="https://twitter.com/CVR_Insights" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-twitter</v-icon>
-                    </a><br>
-                    <a href="https://www.instagram.com/clearviewstats/" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-instagram</v-icon>
-                    </a><br>
-
-                    <a href="https://www.linkedin.com/company/clearview-research-ltd" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-linkedin</v-icon>
-                    </a>
-                </v-flex>
-                <v-flex xs8 md9 style="background:#1c1c1c; text-align: left; margin-top: 70px; margin-left: -40px">
-                    <p style="color:lightgrey; font-size: 38px"><strong>Get in touch</strong></p>
-                    <v-img style="height: 2px; width: 220px; margin-top: -20px"
-                           :src="require('../assets/Line10.png')"></v-img>
-                    <br>
-                    <p style="color:lightgrey; font-size: 32px"><strong>+44-203-474-0995</strong></p>
-                    <p style="color:white; font-size: 13px"><strong>ClearView Research Ltd,<br>
-                        86-90 Paul Street, London, EC2A 4NE</strong></p>
-                    <p style="color:white; font-size: 13px"><strong>ClearView Research Ltd © 2021 All Rights Reserved |
-                        <span style="color: #d05e32"><a style="color: inherit; " href="./../static/privacy.pdf"
-                                                        target="_blank"> Privacy Policy</a></span></strong></p>
-
-                </v-flex>
-            </v-layout>
-            <v-layout class="hidden-md-and-up" row justify-center align="center"
-                      style="height: 430px; background:#1c1c1c;">
-                <v-flex xs12 md3 style="margin-top: 70px; margin-left: -90px">
-                    <a href="https://www.facebook.com/CVR.Insights" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px; margin-top: 8px;" color="white">fab fa-facebook
-                        </v-icon>
-                    </a><br>
-                    <a href="https://twitter.com/CVR_Insights" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-twitter</v-icon>
-                    </a><br>
-                    <a href="https://www.instagram.com/cvr_insights/" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-instagram</v-icon>
-                    </a><br>
-
-                    <a href="https://www.linkedin.com/company/clearview-research-ltd" style="text-decoration:none">
-                        <v-icon large style="margin-bottom: 17px;" color="white">fab fa-linkedin</v-icon>
-                    </a>
-                </v-flex>
-                <v-flex xs12 md9 style="background:#1c1c1c; text-align: left; margin-top: 70px; margin-left: -40px">
-                    <p style="color:lightgrey; font-size: 34px"><strong>Get in touch</strong></p>
-                    <v-img style="height: 2px; width: 200px; margin-top: -20px"
-                           :src="require('../assets/Line10.png')"></v-img>
-                    <br>
-                    <p style="color:lightgrey; font-size: 26px"><strong>+44-203-474-0995</strong></p>
-                    <p style="color:white; font-size: 14px"><strong>ClearView Research Ltd,<br>
-                        86-90 Paul Street, London, EC2A 4NE</strong></p>
-                    <p style="color:white; font-size: 14px"><strong>ClearView Research Ltd © 2021 All Rights Reserved |
-                        <span style="color: #d05e32"><a style="color: inherit; " href="./../static/privacy.pdf"
-                                                        target="_blank"> Privacy Policy</a></span></strong></p>
-
-                </v-flex>
-            </v-layout>
-        </v-container>
+        <div style="border-top:1px solid #d3d3d342; margin-top: 50px;">
+            <siteFooter></siteFooter>
+        </div>
     </div>
 </template>
 
 <script>
+import siteFooter from './Globals/siteFooter.vue'
+
 import navBar from '../components/Globals/navBar.vue'
 export default {
   components: {
-    'navBar': navBar
+    'navBar': navBar,
+    'siteFooter': siteFooter
   },
   data () {
     return {

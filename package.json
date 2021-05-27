@@ -19,6 +19,7 @@
     "lodash": "^4.17.11",
     "pretty-data": "^0.40.0",
     "vue": "^2.5.2",
+    "vue-carousel": "^0.18.0",
     "vue-meta": "^2.4.0",
     "vue-navigation-bar": "^2.0.0",
     "vue-router": "^3.0.1",

@@ -26,17 +26,23 @@
           </div>
       </div>
 
+      <div style="border-top:1px solid #d3d3d342;">
+          <siteFooter></siteFooter>
+      </div>
+
   </div>
 </template>
 
 <script>
+import siteFooter from './Globals/siteFooter.vue'
 import { butter } from '@/buttercms'
 import navBar from '../components/Globals/navBar.vue'
 export default {
   name: 'blog-home',
 
   components: {
-    'navBar': navBar
+    'navBar': navBar,
+    'siteFooter': siteFooter
   },
 
   data () {
