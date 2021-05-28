@@ -586,6 +586,11 @@ export default {
           author: 'Anna Whitton- CEO, WDP',
           logo: 'https://img.icons8.com/plasticine/2x/sugar-cube.png',
           desc: 'The Clearview team were great to work with. They were energising, practical and provided really good quality feedback with clear, tangible recommendations. They built good rapport really quickly with our teams and delivered what we needed at pace.'
+        },
+        {
+          author: 'Lucie Russell - CEO, StreetDoctors',
+          logo: 'https://img.icons8.com/plasticine/2x/sugar-cube.png',
+          desc: 'ClearView provided us with a really comprehensive service. We wanted to get to the nub of what young people affected by violence, and those who work with them, needed to better support them. ClearView took a really authentic and grassroots approach to achieving this task. Their work was thoughtful, down to earth, youth centric and efficient, leading to the production of a really comprehensive final report that was a gold mine of insights.'
         }
       ],
       dialog: false,
