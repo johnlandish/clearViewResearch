@@ -137,26 +137,26 @@
 
         <!-- SECTION 3 -->
         <v-container class="hidden-sm-and-down" fluid style="margin: 0px; padding: 0px; width: 100%">
-            <v-layout row wrap justify-center align="center" style="height: 100px; background:#1b1b1b; padding: 30px; ">
+            <v-layout row wrap justify-center align="center" style="height: 100px; background:#fff; padding: 30px; ">
             </v-layout>
         </v-container>
 
         <v-container fluid style="margin: 0px; padding: 0px; width: 100%">
             <!-- FIRST!! -->
             <v-layout class="hidden-sm-and-down" row wrap justify-center align="center"
-                      style="height: 2200px; background:#1b1b1b; padding: 30px; ">
+                      style="height: 2200px; background:#fff; padding: 30px; ">
                 <!-- <v-flex
                 justify-space-between xs12 md12 style="background:#1b1b1b;" class="justify-center"> -->
                 <br>
                 <v-flex xs12 md4>
                     <p :class="{'ma-0 pa-0': $vuetify.breakpoint.xs}"
-                       style="font-size:44px; color: white;  margin-left: 110px; margin-top: 0px"><strong>Our
+                       style="font-size:44px; color: #00308f;  margin-left: 110px; margin-top: 0px"><strong>Our
                         Team</strong></p>
                     <br>
                 </v-flex>
                 <v-flex class="hidden-md-and-down" xs12 md8>
                     <v-img max-width="782px" style="color: white; height: 2px; margin-left: -40px;  margin-top: 46px; "
-                           :src="require('../assets/Line4.png')"></v-img>
+                           :src="require('../assets/line-blue.png')"></v-img>
                     <br>
                 </v-flex>
                 <!-- <v-hover> -->
@@ -177,9 +177,9 @@
                            v-text="item.name" class="headline"></p>
                         <p style="text-align: left; font-size: 16px; color:#34387F; margin-top: -20px" v-text="item.job"
                            class="headline2"></p>
-                        <v-avatar size="200" center class="pp">
-                            <v-img :src="require(`../assets/${item.src}.jpg`)"
-                            ></v-img>
+                        <v-avatar size="200" center class="pp" id="hoverBox">
+                            <img :src="require(`../assets/${item.src}.jpg`)" style="height: auto;">
+                            <img :src="item.srcHover" style="height: auto;">
                         </v-avatar>
                     </v-card>
                     <!-- </v-hover> -->
@@ -212,9 +212,7 @@
                             <v-flex xs12 md10></v-flex>
                             <v-flex xs12 md2 style="margin-top: 0px;">
                                 <v-btn fab icon style="margin-top: 40px; margin-left: -10px" @click="dialog = false">
-                                    <v-avatar
-                                            size="45"
-                                    >
+                                    <v-avatar size="45" >
                                         <v-img :src="require('../assets/exitBtn.png')"></v-img>
                                     </v-avatar>
                                 </v-btn>
@@ -498,8 +496,7 @@
                         <p style="text-align: left; font-size: 13px; color:#34387F" v-text="item.job"
                            class="headline2"></p>
                         <v-avatar size="140" center class="pp">
-                            <v-img :src="require(`../assets/${item.src}.jpg`)"
-                            ></v-img>
+                            <v-img :src="require(`../assets/${item.src}.jpg`)"></v-img>
                         </v-avatar>
                     </v-card>
                 </v-flex>
@@ -550,6 +547,21 @@
 // import 'vue-navigation-bar/dist/vue-navigation-bar.css'
 import navBar from '../components/Globals/navBar.vue'
 import siteFooter from '../components/Globals/siteFooter'
+// experts peoples
+import kenny from '../assets/experts/kenny.jpg'
+import bim from '../assets/experts/bim.jpg'
+import burphy from '../assets/experts/burphy.jpg'
+import dimitris from '../assets/experts/dimitris.jpg'
+// import elsa from '../assets/experts/elsa.jpg'
+import leonie from '../assets/experts/leonie.jpg'
+import niamh from '../assets/experts/niamh.jpg'
+import sandra from '../assets/experts/sandra.jpg'
+import ana from '../assets/experts/ana.jpg'
+import catherine from '../assets/experts/catherine.jpg'
+import bianca from '../assets/experts/bianca.jpg'
+import peace from '../assets/experts/peace.jpg'
+import bheki from '../assets/experts/bheki.jpg'
+import annette from '../assets/experts/annette.jpg'
 
 export default {
   components: {
@@ -586,6 +598,11 @@ export default {
           author: 'Anna Whitton- CEO, WDP',
           logo: 'https://img.icons8.com/plasticine/2x/sugar-cube.png',
           desc: 'The Clearview team were great to work with. They were energising, practical and provided really good quality feedback with clear, tangible recommendations. They built good rapport really quickly with our teams and delivered what we needed at pace.'
+        },
+        {
+          author: 'Lucie Russell - CEO, StreetDoctors',
+          logo: 'https://img.icons8.com/plasticine/2x/sugar-cube.png',
+          desc: 'ClearView provided us with a really comprehensive service. We wanted to get to the nub of what young people affected by violence, and those who work with them, needed to better support them. ClearView took a really authentic and grassroots approach to achieving this task. Their work was thoughtful, down to earth, youth centric and efficient, leading to the production of a really comprehensive final report that was a gold mine of insights.'
         }
       ],
       dialog: false,
@@ -607,6 +624,7 @@ export default {
         {
           name: 'Kenny Imafidon',
           src: 'CopyKenny-m',
+          srcHover: kenny,
           job: 'Co-Founder & Managing Director',
           profile: 'team01',
           a: '1'
@@ -614,6 +632,7 @@ export default {
         {
           name: 'Leonie Bellio',
           src: 'Leonie1',
+          srcHover: leonie,
           job: 'Co-Founder & Director',
           profile: 'team2',
           a: '2'
@@ -621,6 +640,7 @@ export default {
         {
           name: 'Annette Dale-Perera',
           src: 'Annette1',
+          srcHover: annette,
           job: 'Senior Associate',
           profile: 'team3',
           a: '3'
@@ -628,6 +648,7 @@ export default {
         {
           name: 'Burphy Zumu',
           src: 'Burphyc',
+          srcHover: burphy,
           job: 'Director & Senior Research Executive',
           profile: 'team4',
           a: '4'
@@ -635,6 +656,7 @@ export default {
         {
           name: 'Dr. Bianca B. Wilson',
           src: 'bianca1',
+          srcHover: bianca,
           job: 'Senior Research & Project Consultant',
           profile: 'team5',
           a: '5'
@@ -642,6 +664,7 @@ export default {
         {
           name: 'Sandra Hicks',
           src: 'hicks',
+          srcHover: sandra,
           job: 'Senior Researcher',
           profile: 'team13',
           a: '6'
@@ -649,6 +672,7 @@ export default {
         {
           name: 'Catherine Sweetman',
           src: 'KATE1',
+          srcHover: catherine,
           job: 'Associate',
           profile: 'team7',
           a: '7'
@@ -656,13 +680,15 @@ export default {
         {
           name: 'Dr. Niamh McGarry',
           src: 'Paul3',
+          srcHover: niamh,
           job: 'Research Director',
           profile: 'team8',
           a: '8'
         },
         {
           name: 'Dr. Ana Isabel Pontes',
-          src: 'Ana',
+          src: 'ana',
+          srcHover: ana,
           job: 'Associate',
           profile: 'team9',
           a: '9'
@@ -670,6 +696,7 @@ export default {
         {
           name: 'Peace Benson',
           src: 'Peace1',
+          srcHover: peace,
           job: 'Research Executive',
           profile: 'team10',
           a: '10'
@@ -677,6 +704,7 @@ export default {
         {
           name: 'Dimitris Raidos',
           src: 'Dimitris',
+          srcHover: dimitris,
           job: 'Research Executive',
           profile: 'team111',
           a: '11'
@@ -684,6 +712,7 @@ export default {
         {
           name: 'Bheki Moyo',
           src: 'bhe',
+          srcHover: bheki,
           job: 'Senior Associate',
           profile: 'team12',
           a: '12'
@@ -691,6 +720,7 @@ export default {
         {
           name: 'Bim Ojewale',
           src: 'Bims',
+          srcHover: bim,
           job: 'Finance lead',
           profile: 'team14',
           a: '13'
@@ -818,6 +848,22 @@ export default {
 </script>
 
 <style>
+
+     #hoverBox img:nth-child(2){
+         display: none;
+     }
+     #hoverBox:hover img:nth-child(2){
+         display: block;
+     }
+     #hoverBox:hover img:nth-child(1){
+         display: none;
+     }
+     #hoverBox{
+         width: 200px;
+         overflow: hidden;
+         border-radius: 50%;
+     }
+
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;

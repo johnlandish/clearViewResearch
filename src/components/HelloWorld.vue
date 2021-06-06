@@ -105,6 +105,9 @@
                 <v-flex xs12 md2>
                     <p style="font-size:20px; color: black; margin-top: -40px" class="hidden-sm-and-down">
                         <strong>Some of our projects</strong>
+                        <v-btn  class="customCommonBtn"  style="margin: 18px -11px 7px -52px;" :to="{  name: 'casestudies'}">
+                            <strong>CASE STUDIES </strong>
+                        </v-btn>
                     </p>
                 </v-flex>
                 <v-flex xs12 md10>
@@ -125,9 +128,9 @@
             </v-layout>
             <v-layout row wrap>
                 <v-flex xs12 md4>
-                    <v-btn  class="customCommonBtn"  :to="{  name: 'casestudies'}">
-                        <strong>CASE STUDIES </strong>
-                    </v-btn>
+                    <!--<v-btn  class="customCommonBtn"  :to="{  name: 'casestudies'}">-->
+                        <!--<strong>CASE STUDIES </strong>-->
+                    <!--</v-btn>-->
                 </v-flex>
                 <v-flex xs12 md4>
                 </v-flex>
@@ -605,10 +608,10 @@
         </v-container>
 
         <!-- NEW SECTION 8 -->
-        <v-container fluid style="margin: 0px; padding: 0px; width: 100%" id="letsChat">
+        <v-container fluid style="margin: 0px; padding: 0px; width: 100%; overflow: hidden;" id="letsChat">
             <v-layout row wrap>
                 <v-flex xs12 md6>
-                    <v-card color="#095F52" dark tile flat style="height:810px; font-size: 22px; position: relative">
+                    <v-card color="#00308f" dark tile flat style="height:810px; font-size: 22px; position: relative">
                         <div style="color:white; font-size: 36px; text-align: left; max-width: 380px; padding-top: 100px; font-family: Lato"
                              class="contactform"><strong>Whether you’d like to discuss a project or say hi, we always
                             love to hear from you.</strong></div>
@@ -636,8 +639,12 @@
 
                     </v-card>
                 </v-flex>
-                <v-flex xs12 md6 class="bg-green">
-
+                <v-flex xs12 md6 class="bg-green" style="ooverflow: hidden;
+    position: relative;">
+                    <img src="../assets/groupPhoto.jpg" style="overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;">
                 </v-flex>
             </v-layout>
         </v-container>
@@ -988,6 +995,10 @@ export default {
 
 <style>
 
+    .theme--dark.v-label {
+        color: #fff;
+    }
+
     .banner{
         min-height: 100vh;  position: relative; width:100%;
     }
@@ -1025,7 +1036,7 @@ export default {
         width: 460px;
     }
     .bg-green{
-        background: #006053;
+        background:#00308f;
     }
     @media(max-width:768px){
         .gridSection{
