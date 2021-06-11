@@ -21,6 +21,7 @@ import starbucksUk from '../components/starbucks-uk.vue'
 import ukYouth from '../components/uk-youth.vue'
 import youthCymru from '../components/youth-cymru.vue'
 import BlogPost from '@/components/BlogPost'
+import notFound from '../components/notFound'
 
 Vue.use(Router)
 
@@ -132,6 +133,10 @@ const router = new Router({
       path: '/blog-home',
       name: 'blogHome',
       component: blogHome
+    },
+    {
+      path: '*',
+      component: notFound
     }
 
   ],
