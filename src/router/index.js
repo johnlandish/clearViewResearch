@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import About from '@/components/About'
+import Chat from '@/components/LetsChat'
 import casestudies from '@/components/CaseStudies'
 import expertise from '@/components/Expertise'
 import blogHome from '@/components/blogHome'
@@ -20,6 +21,7 @@ import starbucksUk from '../components/starbucks-uk.vue'
 import ukYouth from '../components/uk-youth.vue'
 import youthCymru from '../components/youth-cymru.vue'
 import BlogPost from '@/components/BlogPost'
+import notFound from '../components/notFound'
 
 Vue.use(Router)
 
@@ -35,6 +37,12 @@ const router = new Router({
       path: '/About',
       name: 'about',
       component: About
+    },
+
+    {
+      path: '/Lets-chat',
+      name: 'chat',
+      component: Chat
     },
     {
       path: '/CaseStudies',
@@ -125,6 +133,10 @@ const router = new Router({
       path: '/blog-home',
       name: 'blogHome',
       component: blogHome
+    },
+    {
+      path: '*',
+      component: notFound
     }
 
   ],
@@ -139,5 +151,4 @@ const router = new Router({
     }
   }
 })
-
 export default router

@@ -12,8 +12,8 @@
                    <router-link to="/casestudies">Our Work</router-link>
                </li>
                <li>
-                    <!--<a  @click="letsChat()">Let’s Chat</a>-->
-                    <a href="#letsChat" @click="letsChat()">Let’s Chat</a>
+                   <router-link to="/Lets-chat">Lets Chat</router-link>
+                    <!--<a href="#letsChat" @click="letsChat()">Let’s Chat</a>-->
                </li>
                <li>
                    <router-link to="/blog/">Hot off the press</router-link>

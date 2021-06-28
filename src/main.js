@@ -42,6 +42,7 @@ Vue.use(VueCarousel)
 new Vue({
   el: '#app',
   router,
+  mode: 'history',
   components: { App },
   template: '<App/>'
 })
